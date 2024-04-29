@@ -42,6 +42,7 @@ const Input = styled.input`
     font-size: 32px;
     background-color: #D9D9D9;
     border:none;
+    outline:none;
     &::placeholder {
         color: #000000;
     }

@@ -20,6 +20,7 @@
     font-family: "karla";
     cursor: pointer;
 }
+
 .user{
     display: flex;
     justify-content: space-between;

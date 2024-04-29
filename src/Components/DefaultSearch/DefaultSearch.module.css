@@ -37,7 +37,7 @@
     /* background-color: #CB26B0; */
     background-color: #2D2D2D;
     border-radius: 50px;
-    padding: 15px 20px;
+    padding: 16px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -51,7 +51,7 @@
     transform: translateX(50%); 
     background-color: #2D2D2D;
     border-radius: 50px;
-    padding: 15px 20px;
+    padding: 16px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -64,7 +64,7 @@
     right: 0;
     background-color: #2D2D2D;
     border-radius: 50px;
-    padding: 15px 18px;
+    padding: 16px 18px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
