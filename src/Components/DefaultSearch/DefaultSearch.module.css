@@ -1,0 +1,73 @@
+.Container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 1371px;
+    height: 80px;
+    margin: 0 22px;
+    font-family: "karla";
+    font-size: 20px;
+}
+.DefaultSearch{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; 
+    width: 1371px;
+}
+.icon{
+    color: blue;
+    width: 48px;
+    height: 31px;
+}
+.bttn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 25px;
+    padding: 15px;
+    background-color: #2D2D2D;
+    border-radius: 50px;
+    position: relative;
+}
+.GIFs{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    /* background-color: #CB26B0; */
+    background-color: #2D2D2D;
+    border-radius: 50px;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.GIFs:hover {
+    background-color: #CB26B0; 
+}
+.Stickers {
+    position: absolute;
+    top: 0;
+    right: 50%; 
+    transform: translateX(50%); 
+    background-color: #2D2D2D;
+    border-radius: 50px;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.Stickers:hover {
+    background-color: #CB26B0; 
+}
+.Clips {
+    position: absolute;
+    top: 0; 
+    right: 0;
+    background-color: #2D2D2D;
+    border-radius: 50px;
+    padding: 15px 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.Clips:hover {
+    background-color: #CB26B0; 
+}

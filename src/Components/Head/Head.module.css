@@ -1,0 +1,35 @@
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1371px;
+    height: 82px;
+    margin: 15px 22px;
+}
+.head h1{
+    font-family: "kavoon";
+    font-size: 48px;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+.Keyword{
+    display: flex;
+    gap: 50px;
+    font-size: 32px;
+    font-family: "karla";
+    cursor: pointer;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 237px;
+    height: 78px;
+    background-color: #2D2D2D;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 0 8px;
+    cursor: pointer;
+    font-family: "karla";
+}
