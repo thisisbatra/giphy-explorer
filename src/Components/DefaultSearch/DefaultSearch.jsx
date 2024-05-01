@@ -4,19 +4,20 @@ import styles from "./DefaultSearch.module.css";
 
 const DefaultSearch = () => {
     return (
-        <div className={styles.Container}>
-            <IoMdTrendingUp className={styles.icon} />
-            <div className={styles.DefaultSearch}>
-                
-                <p>Default Search</p>
-                <p>No. of search items: 25</p>
-                <div className={styles.bttn}>
-                    <span className={styles.GIFs}>GIFs</span>
-                    <span className={styles.Stickers}>Stickers</span>
-                    <span className={styles.Clips}>Clips</span>
-                </div>
+        <section>
+            <div>
+                <span>
+                    <IoMdTrendingUp/>
+                    trending
+                </span>
+                <span>
+                    no. of items searched: 00 
+                </span>
+                <span>
+                    
+                </span>
             </div>
-        </div>
+        </section>
     );
 }
 

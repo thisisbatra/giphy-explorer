@@ -3,34 +3,35 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1371px;
-    height: 82px;
-    margin: 15px 22px;
+    margin: 0.5rem 2rem;
 }
 .head h1{
     font-family: "kavoon";
-    font-size: 48px;
-    letter-spacing: 4px;
-    cursor: pointer;
+    font-size: 2rem;
 }
 .Keyword{
     display: flex;
-    gap: 50px;
-    font-size: 32px;
+    gap: 3rem;
+    font-size: 1.5rem;
     font-family: "karla";
     cursor: pointer;
+}
+.Keyword li:nth-child(1){
+    display: none;
+}
+.Keyword li{
+    list-style-type: none;
 }
 
 .user{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 237px;
-    height: 78px;
     background-color: #2D2D2D;
-    font-size: 24px;
+    font-size: 1.5rem;
+    gap: 1rem;
     border-radius: 10px;
-    padding: 0 8px;
+    padding: 1rem;
     cursor: pointer;
     font-family: "karla";
 }

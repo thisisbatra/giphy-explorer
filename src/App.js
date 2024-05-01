@@ -6,10 +6,10 @@ import Head from './Components/Head/Head';
 
 function App() {
   return (
-    <div>
+    <>
       <Head/>
       <DefaultSearch/>
-    </div>
+    </>
   );
 }
 
