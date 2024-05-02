@@ -1,0 +1,30 @@
+.detailedRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 2rem;
+    font-size: 1.25rem;
+}
+.groupButton{
+    list-style-type: none;
+    background: #2d2d2d;
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.buttonFoucus_Hover{
+    padding: 0.75rem;
+    border-radius: 50px;
+}
+.buttonFoucus_Hover:hover{
+    background: white;
+    color: black;
+}
+.buttonFoucus_Hover:focus{
+    background-color: #CB26B0;
+    color: white;
+}
+.buttonFoucus_Hover:active{
+    background-color: #CB26B0;
+    color: white;
+}

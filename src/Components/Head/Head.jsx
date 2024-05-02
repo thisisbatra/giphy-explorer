@@ -17,12 +17,12 @@ const Head = () => {
                     <li><Keywords Text="Sports" clr="#b239e6" gradient="linear-gradient(to right,  #9c34fd ,#b239e6)" /></li>
                     <li><Keywords Text="Meme" clr="#de44be" gradient="linear-gradient(to right,  #ba3be0 ,#de44be)" /></li>
                 </ul>
-                <div className={styles.user}>
+                {/* <div className={styles.user}>
                     <CgBoy />
-                    {/* <CgGirl /> */}
+                    <CgGirl />
                     <p>username</p>
                     <MdArrowDropDown />
-                </div>
+                </div> */}
             </header>
             <Searchbar/>  
         </>

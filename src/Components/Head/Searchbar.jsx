@@ -19,7 +19,7 @@ export default Searchbar;
 const Search = styled.div`
     display: flex;
     align-items: center;
-    justify-content: center;
+    margin: 0 2rem;
 `;
 
 const SearchIcon = styled.div`
@@ -36,7 +36,7 @@ const SearchIcon = styled.div`
 
 const Input = styled.input` 
     box-sizing: border-box;
-    width:90%;
+    width:95%;
     padding:1rem 2rem;
     font-size: 1rem;
     background-color: #D9D9D9;
