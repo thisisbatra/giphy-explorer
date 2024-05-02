@@ -15,10 +15,10 @@ font-weight: 300;
 color: white;
 position: relative;
 border-bottom: white 0.3rem solid;
-border-bottom-color: ${props => props.gradient};
+border-bottom-color: ${props => props.$gradient};
 padding: 0.5rem 1rem 0 1rem;
 &:hover {
-        background-color: ${props => props.clr};
+        background-color: ${props => props.$clr};
         cursor: pointer;  
     }
 

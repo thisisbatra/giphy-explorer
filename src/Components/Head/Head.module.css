@@ -11,7 +11,7 @@
 }
 .Keyword{
     display: flex;
-    gap: 3rem;
+    gap: 1rem;
     font-size: 1rem;
     font-family: "karla";
 }
