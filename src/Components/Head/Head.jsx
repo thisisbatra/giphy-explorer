@@ -9,7 +9,10 @@ const Head = () => {
     return (
         <>
             <header className={styles.head}>
-                <h1>GIPHY</h1>
+                <span>
+                    <img src="./assets/logo/GIPHY Icon DarkBackgrounds 45.png" alt="logo" />
+                    <h1>GIPHY</h1>
+                </span>
                 <ul className={styles.Keyword}>
                     <li><CiMenuKebab /></li>
                     <li><Keywords Text="Reaction" clr="#02caff" gradient="linear-gradient(to right,  #02caff ,#2ba0ff)" /></li>

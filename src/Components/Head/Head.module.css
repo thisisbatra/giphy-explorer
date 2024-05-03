@@ -5,7 +5,12 @@
     align-items: center;
     margin: 0.5rem 2rem;
 }
-.head h1{
+.head span{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.head span h1{
     font-family: "kavoon";
     font-size: 2rem;
 }
