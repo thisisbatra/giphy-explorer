@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0.5rem 2rem;
+    padding: 0.5rem 2rem;
 }
 .head span{
     display: flex;
@@ -39,4 +39,13 @@
     padding: 1rem;
     cursor: pointer;
     font-family: "karla";
+}
+@media only screen and (max-width: 768px) {
+    .Keyword li:nth-child(1){
+        display: block;
+        font-size: 2rem;
+    }
+    .Keyword li:not(:first-child){
+        display: none;
+    }
 }

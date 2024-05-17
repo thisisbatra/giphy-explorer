@@ -1,6 +1,6 @@
-import Keywords from "./Keywords";
+import Keywords from "../Keyword/Keywords";
 import styles from './Head.module.css';
-import Searchbar from "./Searchbar";
+import Searchbar from "../SearchBar/Searchbar";
 // import { CgBoy } from "react-icons/cg";
 // import { MdArrowDropDown } from "react-icons/md";
 import { CiMenuKebab } from "react-icons/ci";

@@ -1,6 +1,5 @@
-
 import './App.css';
-import DefaultSearch from './Components/DefaultSearch/DefaultSearch';
+import ResultBox from './Components/ResultBox/resultBox';
 import Head from './Components/Head/Head';
 
 
@@ -8,7 +7,7 @@ function App() {
   return (
     <>
       <Head/>
-      <DefaultSearch/>
+      <ResultBox/>
     </>
   );
 }
