@@ -1,6 +1,6 @@
 const express=require('express');
-const trendingRequest=require('./trendingRequest');
 const cors=require('cors');
+const trendingRequest=require('./trendingRequest');
 
 const app=express();
 const port=3001;

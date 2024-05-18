@@ -1,9 +1,10 @@
 const axios = require('axios');
 
+let apiKey="rFz4Lls6kITBvrWU8r31BbpWIQwivgU3"
 let config = {
   method: 'get',
   maxBodyLength: Infinity,
-  url: 'https://api.giphy.com/v1/gifs/trending?api_key=rFz4Lls6kITBvrWU8r31BbpWIQwivgU3&limit=5&offset=0&rating=g&bundle=messaging_non_clips',
+  url: `https://api.giphy.com/v1/gifs/trending?api_key=${apiKey}&limit=30&offset=0&rating=g&bundle=messaging_non_clips`,
   headers: { }
 };
 

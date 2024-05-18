@@ -2,6 +2,7 @@ import { IoMdTrendingUp } from "react-icons/io";
 import styles from "./resultBox.module.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import ImgContainer from "../SearchBar/ImgContainer/ImgContainer";
 
 
 const ResultBox = () => {
@@ -11,7 +12,7 @@ const ResultBox = () => {
         let url='http://localhost:3001/trendingRequest';
         let p=axios.post(url);
         p.then(res=>{
-            console.log("from res",res.data)
+            // console.log("from res",res.data)
             setData(res.data)
         }).catch(err=>{
             console.log(err)
@@ -21,7 +22,6 @@ const ResultBox = () => {
     useEffect(()=>{
         getData();
     },[])
-    
     return (
         <section>
             <div className={styles.detailedRow}>
@@ -30,7 +30,7 @@ const ResultBox = () => {
                     trending
                 </span>
                 <span>
-                    no. of items searched: 00 
+                    no. of items searched: {data.length}
                 </span>
                 <span>
                     <ul className={styles.groupButton}>
@@ -40,8 +40,11 @@ const ResultBox = () => {
                     </ul>
                 </span>
             </div>
-            <div>
-
+            <div className={styles.dataDiv}>
+                {data.map((gif)=>
+                    // <img src={gif.images.original.url} alt="" key={gif.id} />
+                    <ImgContainer src={gif.images.original.url} alt={gif.title} key={gif.id}/>
+                )}
             </div>
         </section>
     );

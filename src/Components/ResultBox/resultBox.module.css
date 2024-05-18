@@ -28,3 +28,9 @@
     background-color: #CB26B0;
     color: white;
 }
+.dataDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 2rem;
+}
