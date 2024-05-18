@@ -36,7 +36,6 @@ const ResultBox = () => {
                     <ul className={styles.groupButton}>
                         <li className={styles.buttonFoucus_Hover}>GIFs</li>
                         <li className={styles.buttonFoucus_Hover}>Stickers</li>
-                        <li className={styles.buttonFoucus_Hover}>Clips</li>
                     </ul>
                 </span>
             </div>

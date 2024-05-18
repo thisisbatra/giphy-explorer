@@ -33,4 +33,5 @@
     flex-wrap: wrap;
     gap: 1rem;
     padding: 0 2rem;
+    justify-content: center;
 }
