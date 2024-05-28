@@ -1,17 +1,26 @@
 const express=require('express');
 const cors=require('cors');
+const bodyParser=require('body-parser');
 const trendingRequest=require('./trendingRequest');
 
 const app=express();
 const port=3001;
+const corsOptions={
+  origin: 'http://localhost:3000',
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  credentials: true,
+  optionsSuccessStatus: 204
+}
 
 app.use(express.json());
-app.use(cors());
+app.use(cors(corsOptions));
+app.use(bodyParser.json());
 
 app.post('/trendingRequest',async(req,res)=>{
     try{
-        let response= await trendingRequest();
-        // console.log(response)
+        let resource=req.body.value;
+        let response= await trendingRequest(resource);
+        console.log("data from body",resource);
         res.send(response.data);
     }
     catch(err){
