@@ -2,6 +2,7 @@ const express=require('express');
 const cors=require('cors');
 const bodyParser=require('body-parser');
 const trendingRequest=require('./trendingRequest');
+const searchRequest=require('./searchRequest');
 
 const app=express();
 const port=3001;
@@ -20,11 +21,24 @@ app.post('/trendingRequest',async(req,res)=>{
     try{
         let resource=req.body.value;
         let response= await trendingRequest(resource);
-        console.log("data from body",resource);
+        // console.log("data from body",resource);
         res.send(response.data);
     }
     catch(err){
         console.log(err);
+    }
+})
+
+app.post('/searchRequest',async(req,res)=>{
+    try{
+        let resource=req.body.value;
+        let search=req.body.search
+        let response=await searchRequest(resource,search);
+        // console.log("data from body",search);
+        // console.log(response.data)
+        res.send(response.data);
+    }catch(err){
+        console.log(err)
     }
 })
 

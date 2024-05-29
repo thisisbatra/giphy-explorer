@@ -1,0 +1,50 @@
+.detailedRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 2rem;
+    font-size: 1.25rem;
+}
+.groupButton{
+    background: #2d2d2d;
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.backButton{
+    background: #4184E8;
+    color: white;
+    padding: 0.25rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+.buttonFoucus_Hover{
+    padding: 0.75rem;
+    border-radius: 50px;
+    background: #2d2d2d;
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+}
+.buttonFoucus_Hover:hover{
+    background: white;
+    color: black;
+}
+/* .buttonFoucus_Hover:focus{
+    background-color: #CB26B0;
+    color: white;
+} */
+.buttonFoucus_Hover.hoverActive{
+    background-color: #CB26B0;
+    color: white;
+}
+.dataDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 2rem;
+    justify-content: center;
+}

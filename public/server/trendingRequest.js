@@ -2,7 +2,7 @@ const axios = require('axios');
 
 async function trendingRequest(resource) {
   try {
-    const apiKey="rFz4Lls6kITBvrWU8r31BbpWIQwivgU3"
+  const apiKey="rFz4Lls6kITBvrWU8r31BbpWIQwivgU3"
   let config = {
     method: 'get',
     maxBodyLength: Infinity,

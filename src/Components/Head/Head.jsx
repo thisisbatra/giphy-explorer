@@ -1,9 +1,9 @@
-import Keywords from "../Keyword/Keywords";
+// import Keywords from "../Keyword/Keywords";
 import styles from './Head.module.css';
 import Searchbar from "../SearchBar/Searchbar";
 // import { CgBoy } from "react-icons/cg";
 // import { MdArrowDropDown } from "react-icons/md";
-import { CiMenuKebab } from "react-icons/ci";
+// import { CiMenuKebab } from "react-icons/ci";
 
 const Head = () => {
     return (
