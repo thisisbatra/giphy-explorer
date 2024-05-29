@@ -23,11 +23,11 @@
     background: white;
     color: black;
 }
-.buttonFoucus_Hover:focus{
+/* .buttonFoucus_Hover:focus{
     background-color: #CB26B0;
     color: white;
-}
-.buttonFoucus_Hover:active{
+} */
+.buttonFoucus_Hover.hoverActive{
     background-color: #CB26B0;
     color: white;
 }

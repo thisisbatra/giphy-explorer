@@ -1,0 +1,12 @@
+.cont{
+    width: 470px;
+    height: 350px;
+    background: #2d2d2d;
+    border-radius: 1rem;
+    animation: forOpacity 2s linear 1s infinite;
+}
+@keyframes forOpacity {
+    0%{opacity: 1;}
+    50%{opacity: 0.4;}
+    100%{opacity: 1;}
+}
