@@ -11,5 +11,6 @@
 }
 .contWithStickers{
     background-image: url(../../../public/assets/images/removeBG.png);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
