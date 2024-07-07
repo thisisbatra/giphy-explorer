@@ -34,8 +34,8 @@ app.post('/searchRequest',async(req,res)=>{
         let resource=req.body.value;
         let search=req.body.search
         let response=await searchRequest(resource,search);
-        // console.log("data from body",search);
-        // console.log(response.data)
+        // console.log(`searched data: ${search} & resourced data: ${resource}`);
+        console.log(req.body)
         res.send(response.data);
     }catch(err){
         console.log(err)
