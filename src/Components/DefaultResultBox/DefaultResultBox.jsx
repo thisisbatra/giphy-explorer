@@ -45,8 +45,8 @@ const ResultBox = () => {
             </div>
             <div className={styles.dataDiv}>
                 {
-                data.map((gif)=>
-                    <ImgContainer src={gif.images.original.url} alt={gif.title} key={gif.id} resource={resource}/>
+                data.map((gif,index)=>
+                    <ImgContainer src={gif.images.original.url} alt={gif.title} key={index} resource={resource}/>
                 )
                 }
             </div>
